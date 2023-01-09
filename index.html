@@ -5,9 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
+
+    <div class="container">
+        <!-- Heading -->
+        <div class="heading">
+            <h1>Isomorphic Strings</h1>
+            <p>Two strings String One and String Two are called isomorphic if there is a one to one mapping possible for
+                every character of String One to every character of String Two.</p>
+        </div>
+        <!-- String One Input -->
+
+        <div class="string-one">
+            <span>String One</span>
+            <input type="text" id="string-one" placeholder="Enter string one...">
+        </div>
+
+        <!-- String Two Input -->
+        <div class="string-two">
+            <span>String Two</span>
+            <input type="text" id="string-two" placeholder="Enter string two...">
+        </div>
+
+        <div class="result">
+            <h4 id="result"></h4>
+        </div>
+
+        <!-- Instructions -->
+        <div class="instructions">
+            <h2>Information</h2>
+            <p>Please input strings of same length to test for isomorphism</p>
+        </div>
+
+        <!-- Button -->
+        <div class="button">
+            <button type="submit" class="button" onclick="isomorphic()">Submit</button>
+        </div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
