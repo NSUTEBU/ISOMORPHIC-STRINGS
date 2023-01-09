@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: goldenrod;
+
+  }
+  .container div {
+      padding: 10px;
+      text-align: center;
+  }
+  .heading {
+      background-color: grey;
+      color: whitesmoke;
+  }
+  .heading p {
+      font-size: 20px;
+  }
+  .string-one, .string-two {
+      background-color: grey;
+      color: whitesmoke;
+  }
